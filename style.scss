@@ -25,9 +25,9 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  //max-width: 740;
   padding: 0 10px;
-  width: 100%;
+  width: 80%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -287,3 +287,90 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+
+// Portfolio classes
+
+// Container class (has margin and sizes)
+.portfolio-container {
+  //max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+  @include mobile {
+    display: grid;
+  }
+}
+
+// Element class (each of the portfolio squares)
+.portfolio-card {
+  background-color: $darkerGray;
+  color: white;
+  border-radius: .5rem;
+}
+
+.portfolio-card > h1 {
+  color: white;
+  margin: 0;
+}
+
+.portfolio-card > figure {
+  max-height: 220px;
+  overflow: hidden;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  position: relative;
+}
+
+.portfolio-card > figure > img {
+  width: 100%;
+}
+
+.portfolio-card > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+  height: 3rem;
+}
+
+.portfolio-card > figure > figcaption > h3 {
+  color: white;
+  font-size: 1.25rem;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @include mobile {
+    position: relative;
+    text-align: center;
+  }
+}
+
+.portfolio-card > p {
+  padding: 0px 20px;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.portfolio-card > div {
+  text-align:center;
+  margin:auto;
+}
+
+.portfolio-card > div > a {
+  background-color: orange;
+  color: white;
+  border-radius: .25rem;
+  text-align: center;
+  display: inline-block;
+  transition: all .3s;
+  padding: .5rem 1rem;
+  margin: 10px 50px;
+  width: 200px;
+}

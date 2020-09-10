@@ -1,0 +1,19 @@
+---
+layout: default
+permalink: /portfolio/
+---
+
+<!-- Parent element to contain each class -->
+<div class="portfolio-container">
+  {% for project in site.portfolio %}
+  <div class="portfolio-card">
+    <figure>
+      <img src="{{ project.image_path }}{{project.main_image}}" alt="{{ project.alt }}">
+      <figcaption><h3>{{ project.title }}</h3></figcaption>
+    </figure>
+    <p>{{ project.category }}</p>
+    <p>{{ project.description }}</p>
+    <div><a href="{{ project.url }}">Visit Project</a></div>
+  </div>
+  {% endfor %}
+</div>

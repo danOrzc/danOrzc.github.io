@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /test/
+---
+
+<!-- Parent element to contain each class -->
+<div class="portfolio-container">
+  {% for project in site.portfolio %}
+  <div class="portfolio-card">
+    <figure>
+      <!-- Photo by Quentin Dr on Unsplash -->
+      <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses">
+      <figcaption><h3>{{ project.title }}</h3></figcaption>
+    </figure>
+    <p>
+      Made in the interiors of collapsing stars star stuff harvesting star light venture billions upon billions Drake Equation brain is the seed of intelligence?
+    </p>
+    <div><a href="{{ project.url }}"">Visit Website</a></div>
+  </div>
+  {% endfor %}
+</div>
