@@ -301,6 +301,7 @@ footer {
 
   @include mobile {
     display: grid;
+    grid-template-columns: fit-content(100%);
   }
 }
 
