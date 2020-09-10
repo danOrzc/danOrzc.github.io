@@ -11,3 +11,4 @@ package.json
 /.jekyll-cache/**
 .jekyll-cache/**
 /.jekyll-cache
+.jekyll-cache/*
