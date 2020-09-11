@@ -379,10 +379,10 @@ footer {
 // ------------------ Post organization
 
 .pagination {
-  overflow: hidden; /* clearfix */
+  //overflow: hidden; /* clearfix */
+  text-align: center;
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
-  text-align: center;
 }
