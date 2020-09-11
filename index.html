@@ -28,11 +28,12 @@ layout: default
 The purpose of this snippet is to list all the tags you have in your site.
 =======================
 {% endcomment %}
+<div>
 <hr/>
 {% for tag in site.tags %}
 	<a href="{{ site.baseurl }}/tag/#{{ tag[0] | slugify }}"> {{ tag[0] }} </a>
 {% endfor %}
-
+</div>
 
 <!-- Pagination links -->
 <div class="pagination">
