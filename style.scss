@@ -289,7 +289,7 @@ footer {
 @import "svg-icons";
 
 
-// Portfolio classes
+// ---------------------- Portfolio classes
 
 // Container class (has margin and sizes)
 .portfolio-container {
@@ -374,4 +374,15 @@ footer {
   padding: .5rem 1rem;
   margin: 10px 50px;
   width: 200px;
+}
+
+// ------------------ Post organization
+
+.pagination {
+  overflow: hidden; /* clearfix */
+  margin-left: -1rem;
+  margin-right: -1rem;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  color: #ccc;
+  text-align: center;
 }

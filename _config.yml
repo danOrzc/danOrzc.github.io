@@ -54,6 +54,11 @@ collections:
   portfolio:
     output: true
 
+paginate: 5
+
+plugins: 
+  - jekyll-paginate
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
