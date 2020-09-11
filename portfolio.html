@@ -2,6 +2,9 @@
 layout: default
 permalink: /portfolio/
 ---
+<div>
+  <iframe src="https://player.vimeo.com/video/442615299" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
 
 <!-- Parent element to contain each class -->
 <div class="portfolio-container">
@@ -13,7 +16,7 @@ permalink: /portfolio/
     </figure>
     <p>{{ project.category }}</p>
     <p>{{ project.description }}</p>
-    <div><a href="{{ project.url }}">Visit Project</a></div>
+    <div><a class="btn" href="{{ project.url }}">Visit Project</a></div>
   </div>
   {% endfor %}
 </div>

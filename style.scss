@@ -307,8 +307,8 @@ footer {
 
 // Element class (each of the portfolio squares)
 .portfolio-card {
-  background-color: $darkerGray;
-  color: white;
+  background-color: $lightGray;
+  color: black;
   border-radius: .5rem;
 }
 
@@ -364,17 +364,6 @@ footer {
   margin:auto;
 }
 
-.portfolio-card > div > a {
-  background-color: orange;
-  color: white;
-  border-radius: .25rem;
-  text-align: center;
-  display: inline-block;
-  transition: all .3s;
-  padding: .5rem 1rem;
-  margin: 10px 50px;
-  width: 200px;
-}
 
 // ------------------ Post organization
 
@@ -385,4 +374,18 @@ footer {
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
+}
+
+// ----------------- Page classes
+
+.btn {
+  background-color: $darkerGray;
+  color: white;
+  border-radius: .25rem;
+  text-align: center;
+  display: inline-block;
+  transition: all .3s;
+  padding: .5rem 1rem;
+  margin: 10px 50px;
+  width: 200px;
 }
