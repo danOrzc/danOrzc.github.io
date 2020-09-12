@@ -2,6 +2,7 @@
 layout: post
 title: Hello, World!
 author: Daniel Orozco
+comments: true
 tags: [storytime]
 ---
 
