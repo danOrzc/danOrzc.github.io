@@ -4,11 +4,18 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a guy from Mexico that really likes Digital Art but also is kinda lazy to do it manually... so I find ways to do it automatically! When I'm not working, you can find me studying or researching new techniques and workflows, or just finding the answers to random questions I sometimes get.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Animation and Digital Arts graduate with Diplomas on Game Design, Graphic Design and Technical Arts. 
+
+I have experience working in Unreal Engine, Unity, Maya, Houdini, Substance Painter, Substance Designer, Photoshop, Illustrator, After Effects, Premiere. 
+
+Programming experience with java, javascript, python, C# and C++
+
+{: .center-div}
+[Get my Resume](/assets/DanielOrozco_Resume.pdf){: .btn}
 
 ### Contact me
 
