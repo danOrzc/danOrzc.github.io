@@ -20,3 +20,7 @@ Programming experience with java, javascript, python, C# and C++
 ### Contact me
 
 [dan.orzc@gmail.com](mailto:dan.orzc@gmail.com)
+
+### This website
+
+A big shout-out to Barry Clark, a web developer that put together [Jekyll Now](https://www.jekyllnow.com/), a repo that allows you to build a Jekyll website in an easy manner!
