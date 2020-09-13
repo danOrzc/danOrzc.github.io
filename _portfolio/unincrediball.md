@@ -43,4 +43,4 @@ My tasks on the project included modelling the game arena and its props, designi
 </div>
 
 {: .center-div}
-[See the game](http://community.vfs.com/arcade/game/unincrediball/){: .btn}
+[See the game](http://community.vfs.com/arcade/game/unincrediball/){: .btn target="_blank"}
