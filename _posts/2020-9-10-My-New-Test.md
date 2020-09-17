@@ -1,8 +1,9 @@
 ---
 layout: post
-title: MAUAHAHAHAHA!
+title: Muahahahahaha
 author: Daniel Orozco
-tags: [something]
+comments: true
+tags: [storytime]
 published: false
 ---
 

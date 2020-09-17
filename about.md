@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a guy from Mexico that really likes Digital Art but also is kinda lazy to do it manually... so I find ways to do it automatically! When I'm not working, you can find me studying or researching new techniques and workflows, or just finding the answers to random questions I get.
+I'm a guy from Mexico living in Vancouver that really likes Digital Art but also is kinda lazy to do it manually... so I find ways to do it automatically! When I'm not working, you can find me studying or researching new techniques and workflows, or just finding the answers to random questions I get.
 
 With this website, I want to create a space for me to register my learnings and be able to share them with whoever needs them.
 
